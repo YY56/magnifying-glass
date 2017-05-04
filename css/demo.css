@@ -1,0 +1,44 @@
+
+#pictureM{
+	position: relative;
+	width: 600px;
+	height: 270px;
+
+}
+#pictureM img{
+	width: 600px;
+	height: 270px;
+	overflow: hidden;
+}
+#boxM{
+	position: absolute;
+display: none;
+	width: 150px;
+	height: 54px;
+	background: #eee;
+	opacity: .2;
+}
+#pictureL{
+
+	position: absolute;
+	top: 0;
+	left: 600px;
+	display: none;
+	width: 600px;
+	height: 270px;
+	overflow: hidden;
+}
+#boxL{
+	position: absolute;
+	width: 600px;
+	height: 270px;
+	background: #eee;
+	opacity: .1;
+}
+#pictureS img{
+	float: left;
+	margin:0 50px;
+	width: 200px;
+	height: 113px;
+	overflow: hidden;
+}
